@@ -45,3 +45,7 @@ main {
 .title {
 	margin-top: 15px;
 }
+
+.note {
+	font-size: 10px;
+}
