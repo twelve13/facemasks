@@ -1,0 +1,47 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.listing {
+	height: 500px;
+	font-size: 24px;
+	text-align: center;
+	width: 400px;
+}
+
+.listing img, .ordered, .no-pref {
+	border-radius: 15px;
+	height: 400px;
+	width: 400px
+}
+
+.ordered, .no-pref {
+	align-items: center;
+	border: solid 1px gray;
+	color: gray;
+	display: flex;
+	justify-content: center
+}
+
+.no-pref {
+	color: black;
+}
+
+.no-pref  + .title {
+	font-style: italic;
+}
+
+.title {
+	margin-top: 15px;
+}
